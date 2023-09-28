@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    flex: none;
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+.square {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.square:hover {
+    background-color: black;
+}
