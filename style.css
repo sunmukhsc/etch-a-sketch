@@ -12,7 +12,7 @@ h1 {
     font-size: 50px;
 }
 
-#size {
+button {
     font-size: 20px;
     margin-bottom: 30px;
     font-family: 'Courier New', Courier, monospace;
@@ -23,7 +23,7 @@ h1 {
     padding: 3px 16px;
 }
 
-#size:hover {
+button:hover {
     background-color: black;
     color: white;
     transition-duration: 0.2s;
